@@ -37,7 +37,17 @@
             border: 0;
         }
         .ul1 li a{
-            background-image: url(images/2.png);
+
+            border: 0px;
+            font-family:华文楷体;
+
+        }
+        .ul2 li a{
+            border: 0px;
+        }
+        .div1{
+            background-color: white;
+            margin-top: 10px
         }
     </style>
 </head>
@@ -46,12 +56,12 @@
         <div data-role="header"  style="background-image: url(images/2.png)" data-position="fixed">
             <a href="#" class="ui-nodisc-icon" data-icon="img1" data-iconpos="notext"></a>
             <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
-                 <a href="#" data-role="button">奇葩圈</a>
-                 <a href="#" data-role="button">生活圈</a>
+                 <a href="#" data-role="button" class="ui-btn-active">奇葩圈</a>
+                 <a href="#page6" data-role="button">生活圈</a>
             </div>
             <a href="#" class="ui-nodisc-icon" data-icon="gear" data-iconpos="notext" style="background-image: url(images/2.png)"></a>
             <div data-role="navbar" class="navbar" >
-                <ul>
+                <ul class="ul2">
                     <li><a href="#page1" class="ui-btn-active">推荐</a></li>
                     <li><a href="#page2">段子</a></li>
                     <li><a href="#page3" >视频</a></li>
@@ -59,43 +69,43 @@
                 </ul>
             </div>
         </div>
-        <div data-role="content">
+        <div data-role="content" style="background-color:gainsboro">
 
-            <div style="border-top: 1px solid">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div class="div1">
+                <a href="#" style="float:left; margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
                 <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#page5" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div class="div1">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><img src="images/7.png" width="280px" height="200px"></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div class="div1">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><video width="280px" height="200px" src="images/1.ogg" controls="controls" autoplay="true"></video></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
@@ -103,14 +113,14 @@
 
 
          </div>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer" data-position="fixed" data-theme="b">
             <div data-role="navbar" >
                 <ul class="ul1">
-                    <li ><a href="#" class="ui-nodisc-icon " data-icon="home"  style="text-shadow: none;color:yellow">首页</a></li>
-                    <li><a href="#" class="ui-nodisc-icon" data-icon="mail"   style="text-shadow: none;color:white">消息 </a></li>
-                    <li><a href="#" class="ui-nodisc-icon" data-icon="plus"   style="text-shadow: none;color:white">投稿</a></li>
-                    <li><a href="#" class="ui-nodisc-icon" data-icon="search"   style="text-shadow: none;color:white">发现 </a></li>
-                    <li><a href="#" class="ui-nodisc-icon" data-icon="user"   style="text-shadow: none;color:white">我的 </a></li>
+                    <li><a href="#" class="ui-nodisc-icon " data-icon="home"  style="text-shadow:none;color:yellow;">首页</a></li>
+                    <li><a href="#" class="ui-nodisc-icon" data-icon="mail"   style="text-shadow:none;color:white">消息 </a></li>
+                    <li><a href="#" class="ui-nodisc-icon" data-icon="plus"   style="text-shadow:none;color:white">投稿</a></li>
+                    <li><a href="#" class="ui-nodisc-icon" data-icon="search"   style="text-shadow:none;color:white">发现</a></li>
+
                 </ul>
             </div>
 
@@ -121,12 +131,12 @@
         <div data-role="header"  style="background-image: url(images/2.png)" data-position="fixed">
             <a href="#" class="ui-nodisc-icon" data-icon="img1" data-iconpos="notext"></a>
             <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
-                <a href="#" data-role="button">奇葩圈</a>
-                <a href="#" data-role="button">生活圈</a>
+                <a href="#" data-role="button" class="ui-btn-active">奇葩圈</a>
+                <a href="#page6" data-role="button">生活圈</a>
             </div>
             <a href="#" class="ui-nodisc-icon" data-icon="gear" data-iconpos="notext" style="background-image: url(images/2.png)"></a>
             <div data-role="navbar" class="navbar" >
-                <ul>
+                <ul class="ul2">
                     <li><a href="#page1" >推荐</a></li>
                     <li><a href="#page2" class="ui-btn-active">段子</a></li>
                     <li><a href="#page3" >视频</a></li>
@@ -134,58 +144,56 @@
                 </ul>
             </div>
         </div>
-        <div data-role="content">
+        <div data-role="content" style="background-color: gainsboro">
 
-            <div style="border-top: 1px solid">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
-                <a href="#" style="float:right;margin-right:190px;margin-top:6px">小刘</a>
-                <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
-
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
-                    <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
-                    <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
-                </div>
-            </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
-                <a href="#" style="float:right;margin-right:190px;margin-top:6px">洪</a>
-                <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
-
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
-                    <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
-                    <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
-                </div>
-            </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div style="background-color: white;margin-top: 10px">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
                 <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
+                    <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
+                </div>
+            </div>
+            <div style="background-color: white;margin-top: 10px">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
+                <a href="#" style="float:right;margin-right:190px;margin-top:6px">脑瘤</a>
+                <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
+
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
+                    <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
+                </div>
+            </div>
+            <div style="background-color: white;margin-top: 10px">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
+                <a href="#" style="float:right;margin-right:190px;margin-top:6px">智障</a>
+                <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
+
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
 
-
         </div>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer" data-position="fixed" data-theme="b">
             <div data-role="navbar" >
                 <ul class="ul1">
                     <li ><a href="#" class="ui-nodisc-icon " data-icon="home"  style="text-shadow: none;color:yellow">首页</a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="mail"   style="text-shadow: none;color:white">消息 </a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="plus"   style="text-shadow: none;color:white">投稿</a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="search"   style="text-shadow: none;color:white">发现 </a></li>
-                    <li><a href="#" class="ui-nodisc-icon" data-icon="user"   style="text-shadow: none;color:white">我的 </a></li>
                 </ul>
             </div>
 
@@ -196,56 +204,56 @@
         <div data-role="header"  style="background-image: url(images/2.png)" data-position="fixed">
             <a href="#" class="ui-nodisc-icon" data-icon="img1" data-iconpos="notext"></a>
             <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
-                <a href="#" data-role="button">奇葩圈</a>
-                <a href="#" data-role="button">生活圈</a>
+                <a href="#page1" data-role="button" class="ui-btn-active">奇葩圈</a>
+                <a href="#page6" data-role="button">生活圈</a>
             </div>
             <a href="#" class="ui-nodisc-icon" data-icon="gear" data-iconpos="notext" style="background-image: url(images/2.png)"></a>
             <div data-role="navbar" class="navbar" >
-                <ul>
-                    <li><a href="#page1" class="ui-btn-active">推荐</a></li>
+                <ul class="ul2">
+                    <li><a href="#page1" >推荐</a></li>
                     <li><a href="#page2">段子</a></li>
-                    <li><a href="#page3" >视频</a></li>
+                    <li><a href="#page3" class="ui-btn-active">视频</a></li>
                     <li><a href="#page4">图片</a></li>
                 </ul>
             </div>
         </div>
-        <div data-role="content">
+        <div data-role="content" style="background-color: gainsboro">
 
-            <div style="border-top: 1px solid">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div style="background-color: white;">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><video width="250px" height="200px" src="images/1.ogg" controls="controls" autoplay="true"></video></div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><video width="280px" height="200px" src="images/1.ogg" controls="controls" autoplay="true"></video></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div style="background-color: white;margin-top: 10px;">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><video width="250px" height="200px" src="images/1.ogg" controls="controls" autoplay="true"></video></div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><video width="280px" height="200px" src="images/1.ogg" controls="controls" autoplay="true"></video></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div style="background-color: white;margin-top: 10px;">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><video width="250px" height="200px" src="images/1.ogg" controls="controls" autoplay="true"></video></div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><video width="280px" height="200px" src="images/1.ogg" controls="controls" autoplay="true"></video></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
@@ -253,14 +261,13 @@
 
 
         </div>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer" data-position="fixed" data-theme="b">
             <div data-role="navbar" >
                 <ul class="ul1">
                     <li ><a href="#" class="ui-nodisc-icon " data-icon="home"  style="text-shadow: none;color:yellow">首页</a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="mail"   style="text-shadow: none;color:white">消息 </a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="plus"   style="text-shadow: none;color:white">投稿</a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="search"   style="text-shadow: none;color:white">发现 </a></li>
-                    <li><a href="#" class="ui-nodisc-icon" data-icon="user"   style="text-shadow: none;color:white">我的 </a></li>
                 </ul>
             </div>
 
@@ -271,56 +278,56 @@
         <div data-role="header"  style="background-image: url(images/2.png)" data-position="fixed">
             <a href="#" class="ui-nodisc-icon" data-icon="img1" data-iconpos="notext"></a>
             <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
-                <a href="#" data-role="button">奇葩圈</a>
-                <a href="#" data-role="button">生活圈</a>
+                <a href="#page1" data-role="button" class="ui-btn-active">奇葩圈</a>
+                <a href="#page6" data-role="button">生活圈</a>
             </div>
             <a href="#" class="ui-nodisc-icon" data-icon="gear" data-iconpos="notext" style="background-image: url(images/2.png)"></a>
             <div data-role="navbar" class="navbar" >
-                <ul>
-                    <li><a href="#page1" class="ui-btn-active">推荐</a></li>
+                <ul class="ul2">
+                    <li><a href="#page1" >推荐</a></li>
                     <li><a href="#page2">段子</a></li>
                     <li><a href="#page3" >视频</a></li>
-                    <li><a href="#page4">图片</a></li>
+                    <li><a href="#page4" class="ui-btn-active">图片</a></li>
                 </ul>
             </div>
         </div>
-        <div data-role="content">
+        <div data-role="content" style="background-color: gainsboro">
 
-            <div style="border-top: 1px solid">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div style="background-color: white; ">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><img src="images/7.png" width="250px" height="200px"></div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><img src="images/7.png" width="280px" height="200px"></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div style="background-color: white;margin-top: 10px">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><img src="images/7.png" width="250px" height="200px"></div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><img src="images/7.png" width="280px" height="200px"></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
-            <div style="border-top: 1px solid;margin-top: 5px">
-                <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
+            <div style="background-color: white;margin-top: 10px">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
 
-                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><img src="images/7.png" width="250px" height="200px"></div>
-                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
-                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
-                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a>
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px"><p>这是一个标题</p><img src="images/7.png" width="280px" height="200px"></div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
                     <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
@@ -328,14 +335,13 @@
 
 
         </div>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer" data-position="fixed" data-theme="b">
             <div data-role="navbar" >
                 <ul class="ul1">
                     <li ><a href="#" class="ui-nodisc-icon " data-icon="home"  style="text-shadow: none;color:yellow">首页</a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="mail"   style="text-shadow: none;color:white">消息 </a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="plus"   style="text-shadow: none;color:white">投稿</a></li>
                     <li><a href="#" class="ui-nodisc-icon" data-icon="search"   style="text-shadow: none;color:white">发现 </a></li>
-                    <li><a href="#" class="ui-nodisc-icon" data-icon="user"   style="text-shadow: none;color:white">我的 </a></li>
                 </ul>
             </div>
 
@@ -350,13 +356,12 @@
                <p>评论</p>
             </div>
         </div>
-        <div data-role="content">
+        <div data-role="content" style="background-color: gainsboro">
 
-            <div style="border-top: 1px solid;border-bottom: 1px solid">
+            <div style="background-color: white;">
                 <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
                 <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
                 <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
-
                 <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
                 <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;">
                     <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a>
@@ -365,15 +370,16 @@
                     <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
                 </div>
             </div>
-            <p>评论:</p>
-            <div style="border-top: 1px solid;">
+            <h6 style="height: 1px">新鲜评论：</h6>
+            <div style="background-color: white; ">
                 <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
                 <a href="#" style="width:40px;float:right;margin-right:190px;margin-top:6px;">小明</a>
 
                 <div style="margin-top:40px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
                 <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:250px" ></a>
             </div>
-            <div style="border-top: 1px solid;">
+
+            <div style="background-color: white;">
                 <a href="#" style="float:left;"> <img src="images/1.png" alt="头像" width="50px" height="50px" style="border-radius:50%"> </a>
                 <a href="#" style="width:40px;float:right;margin-right:190px;margin-top:6px;">小明</a>
 
@@ -382,11 +388,83 @@
             </div>
 
         </div>
-        <div data-role="footer" data-position="fixed" >
+        <div data-role="footer" data-position="fixed" data-theme="b">
             <div data-role="fieldcontain"  style="width: 250px;height:40px;float: left">
                 <input type="text" name="text" id="text" value="" />
             </div>
             <a href="#" data-role="button" style="float: right;margin-top: 22px;margin-right:10px">提交</a>
+        </div>
+    </div>
+    <!--生活圈-->
+    <div data-role="page" id="page6">
+        <div data-role="header"  style="background-image: url(images/2.png)" data-position="fixed">
+            <a href="#" class="ui-nodisc-icon" data-icon="img1" data-iconpos="notext"></a>
+            <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
+                <a href="#page1" data-role="button" >奇葩圈</a>
+                <a href="#page6" data-role="button" class="ui-btn-active">生活圈</a>
+            </div>
+            <a href="#" class="ui-nodisc-icon" data-icon="gear" data-iconpos="notext" style="background-image: url(images/2.png)"></a>
+            <div data-role="navbar" class="navbar" >
+                <ul class="ul2">
+                    <li><a href="#" class="ui-btn-active">大家玩</a></li>
+                    <li><a href="#" >关注</a></li>
+                    <li><a href="#">我的动态</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content" style="background-color:gainsboro">
+
+            <div class="div1">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
+                <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
+                <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
+
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
+                    <a href="#page5" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
+                </div>
+            </div>
+            <div class="div1">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
+                <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
+                <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
+
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
+                    <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
+                </div>
+            </div>
+            <div class="div1">
+                <a href="#" style="float:left;margin-top:10px;margin-left:20px"> <img src="images/1.png" alt="头像" width="30px" height="30px" style="border-radius:50%"> </a>
+                <a href="#" style="float:right;margin-right:190px;margin-top:6px">小明</a>
+                <time datetime="2016-07-27T04:54:2907:00" >&nbsp;2016-7-12 15:30</time>
+
+                <div style="margin-top:10px;margin-left: 5px;font-family:微软雅黑;font-size:15px">&nbsp;&nbsp;叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦叽里呱啦</div>
+                <div style="margin-top:10px;margin-left: 5px;height:36px;padding-bottom: 5px;position:relative">
+                    <a href="#" class="ui-btn ui-icon-img2 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block" ></a><span class="ui-li-count" style="position:absolute;top:25px;right:230px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img3 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:20px;"></a><span class="ui-li-count" style="position:absolute;top:25px;right:175px;border:0px;color:grey">111</span>
+                    <a href="#" class="ui-btn ui-icon-img4 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:80px;"></a>
+                    <a href="#" class="ui-btn ui-icon-img5 ui-btn-icon-notext ui-nodisc-icon" style="display:inline-block;margin-left:30px;"></a>
+                </div>
+            </div>
+
+
+        </div>
+        <div data-role="footer" data-position="fixed" data-theme="b">
+            <div data-role="navbar" >
+                <ul class="ul1">
+                    <li><a href="#" class="ui-nodisc-icon " data-icon="grid"  style="text-shadow:none;">相册</a></li>
+                    <li><a href="#" class="ui-nodisc-icon" data-icon="edit"   style="text-shadow:none;">写动态</a></li>
+                </ul>
+            </div>
+
+
         </div>
     </div>
 </body>
