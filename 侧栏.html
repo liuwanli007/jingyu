@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>奇葩狗</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<style>
+		.ui-icon-circle{
+			background-image:url(images/bgi.png);
+		}
+		#myPanel a{
+			text-decoration:none;
+		}
+		#myPanel li{
+			list-style: none;
+		}
+	</style>
+</head>
+<body>
+<div data-role="page">
+	<div data-role="panel" id="myPanel" data-display="overlay" data-theme="b">
+		<p>
+			<a href="MyInformation.html" rel="external">
+				<image src="images/bgi.png" style="height: 60px;width:60px;border-radius: 50px"></image>
+			</a>
+			<span>我有络腮胡</span>
+		</p>
+		<p></p>
+		<ul data-role="listview">
+			<li data-icon="false"><a href="PersonalData.html" rel="external">个人资料</a></li>
+			<li data-icon="false"><a href="MyConcern.html" rel="external">关注</a></li>
+			<li data-icon="false"><a href="MyFans.html" rel="external">粉丝</a></li>
+			<li data-icon="false"><a href="Collected.html" rel="external">收藏</a></li>
+			<li data-icon="false"><a href="#">退出登陆</a></li>
+	</ul>
+	</div>
+	<div data-role="header" data-position="fixed">
+	<div data-role="header">
+	</div>
+	 <a href="#myPanel"  data-role="button" data-icon="circle" data-iconpos="notext" style="position: absolute;left:5px;top:10px"></a>
+
+	<div data-role="controlgroup" data-type="horizontal" style="text-align: center">
+		<a href="#" data-role="button">生活圈</a>
+		<a href="#" data-role="button">生活圈</a>
+	</div>
+	<div data-role="navbar">
+		<ul>
+			<li style="border: 100px;"><a href="#">段子</a>
+			</li>
+			<li><a href="#">图片</a>
+			</li>
+			<li><a href="#">视频</a></li>
+		</ul>
+	</div>
+</div>
+	<div data-role="content">
+
+	</div>
+	<div data-role="footer" data-position="fixed"></div>
+</div>
+
+</body>
+</html>
