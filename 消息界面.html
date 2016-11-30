@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>奇葩狗</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="jquery.min.js"></script>
+    <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="page1">
+    <!--侧边栏-->
+    <div data-role="panel" id="myPanel" data-display="overlay" data-theme="b">
+        <p>
+            <a href="#page13" rel="external">
+                <image src="images/1.png" style="height: 60px;width:60px;border-radius: 50px"></image>
+            </a>
+            <span>我有络腮胡</span>
+        </p>
+        <p></p>
+        <ul data-role="listview">
+            <li data-icon="false"><a href="#page12" rel="external">个人资料</a></li>
+            <li data-icon="false"><a href="#page11" rel="external">关注</a></li>
+            <li data-icon="false"><a href="#page10" rel="external">粉丝</a></li>
+            <li data-icon="false"><a href="#page9" rel="external">收藏</a></li>
+            <li data-icon="false"><a href="#">退出登陆</a></li>
+        </ul>
+    </div>
+    <div data-role="header"  style="background-image: url(images/2.png)" data-position="fixed">
+        <a href="#myPanel" class="ui-nodisc-icon" data-icon="img1" data-iconpos="notext"></a>
+        <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
+            <a href="#" data-role="button" class="ui-btn-active">奇葩圈</a>
+            <a href="#page6" data-role="button">生活圈</a>
+        </div>
+        <a href="#" class="ui-nodisc-icon" data-icon="gear" data-iconpos="notext" style="background-image: url(ima  ges/2.png)"></a>
+
+    </div>
+  <div data-role="listview" data-inset="true">
+     <li>
+         <a href="#">评论<span class="ui-li-count">20</span> </a>
+     </li>
+      <li>
+          <a href="#">赞<span class="ui-li-count">20</span> </a>
+      </li>
+      <li>
+          <a href="#">给我留言<span class="ui-li-count">20</span> </a>
+      </li>
+  </div>
+
+    <div data-role="footer" data-position="fixed" data-theme="b">
+        <div data-role="navbar" >
+            <ul class="ul1">
+                <li><a href="#" class="ui-nodisc-icon " data-icon="home"  style="text-shadow:none;color:yellow;">首页</a></li>
+                <li><a href="投稿.html" class="ui-nodisc-icon" data-icon="plus"   style="text-shadow:none;color:white">投稿</a></li>
+                <li><a href="#" class="ui-nodisc-icon" data-icon="mail"   style="text-shadow:none;color:white">消息 </a></li>
+
+            </ul>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
