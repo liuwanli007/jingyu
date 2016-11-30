@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>登录</title>  
+    <link rel="stylesheet" href="css/pintuer.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/pintuer.js"></script>  
+</head>
+<body>
+<div class="bg"></div>
+<div class="container">
+    <div class="line bouncein">
+        <div class="xs6 xm4 xs3-move xm4-move" style="height:80%; width:60%">
+            <div style="height:300px;"></div>
+            <div class="media media-y margin-big-bottom">           
+            </div>         
+           
+            
+            <div class="login-wrap">
+		    <div class="login-html">
+                <div class="text-center margin-big padding-big-top"><h1>后台管理中心</h1></div>
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked /><label for="tab-1" class="tab">登录</label>
+			<input id="tab-2" type="radio" name="tab" class="sign-up" /><label for="tab-2" class="tab">注册</label>
+            <div class="login-form">
+             <form action="index.html" method="post">
+            <div class="sign-in-htm">
+                <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
+                    <div class="form-group">
+                        <div class="field field-icon-right">
+                            <input type="text"  style="border-radius:30px" class="input  input-big " name="name" placeholder="登录账号" data-validate="required:请填写账号" />
+                            <span class="icon icon-user margin-small"></span>
+                        </div>
+                       
+                    </div>
+                    <div class="form-group">
+                        <div class="field field-icon-right">
+                            <input type="password" style="border-radius:30px"    class="input  input-big" name="password" placeholder="登录密码"  data-type="password" data-validate="required:请填写密码 ,length#>=5:密码不小于5位" />
+                            <span class="icon icon-key margin-small"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" style="border-radius:10px"   class="input input-big" name="code" placeholder="填写右侧的验证码" data-validate="required:请填写右侧的验证码" />
+                           <img src="images/passcode.jpg" alt="" width="100" height="32" class="passcode" style="height:43px;cursor:pointer;" onclick="this.src=this.src+'?'">  
+                                                   
+                        </div>
+                    </div>
+                </div>
+                <div style="padding:30px;"><input type="submit" class="button button-block bg-main text-big input-big" value="登录"></div>
+                </div>
+                </form>
+                 <form action="index.html" method="post">
+                 <div class="sign-up-htm">
+                <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
+                    <div class="form-group">
+                        <div class="field field-icon-right">
+                            <input type="text"  style="border-radius:30px" class="input  input-big " name="name" placeholder="登录账号" data-validate="required:请填写账号" />
+                            <span class="icon icon-user margin-small"></span>
+                        </div>
+                       
+                    </div>
+         
+      
+       <div class="form-group">
+        
+        <div class="field">
+          <input type="password"  style="border-radius:30px" class="input" name="newpass" size="50" placeholder="请输入密码" data-validate="required:请输入密码,length#>=5:密码不能小于5位" />         
+        </div>
+      </div>
+      <div class="form-group">
+      
+        <div class="field">
+          <input type="password" style="border-radius:30px"  class="input " name="renewpass" size="50" placeholder="请再次输入密码" data-validate="required:请再次输入密码,repeat#newpass:两次输入的密码不一致" />          
+        </div>
+      </div>
+      
+       <div class="form-group">
+                        <div class="field">
+                            <input type="text" style="border-radius:10px"   class="input input-big" name="code" placeholder="填写右侧的验证码" data-validate="required:请填写右侧的验证码" />
+                           <img src="images/passcode.jpg" alt="" width="100" height="32" class="passcode" style="height:43px;cursor:pointer;" onclick="this.src=this.src+'?'">  
+                                                   
+                        </div>
+                    </div>
+                 <div class="form-group">
+                <div style="padding:30px;"><input type="submit"  style="border-radius:10px" class="button button-block bg-main text-big input-big" value="注册"></div>
+                </div>
+                
+                </div>
+               </div>
+               </div>
+                </div>
+                </div>
+         
+            </form>          
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
