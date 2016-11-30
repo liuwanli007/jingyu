@@ -5,7 +5,7 @@
     <title>登录</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script src="jquery.min.js"></script>
+    <script src="jquery-2.2.3.min.js"></script>
     <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
@@ -18,17 +18,27 @@
         <div data-role="content">
             <img src="./images/admin_banner.jpg" width="100%" style="padding-top:1em">
             <form>
-                    <label for="zhanghao" class="ui-hidden-accessible">账号：</label>
-                    <input type="text" name="zhanghao" id="zhanghao" placeholder="请输入你的账号"><br>
-                    <label for="mima" class="ui-hidden-accessible">账号：</label>
-                    <input type="password" name="mima" id="mima" placeholder="请输入你的密码">
-                    <a style="font-size: small; font-family: Calibri"><p align="center">忘记密码?</p></a>
+                    <label for="use_num" class="ui-hidden-accessible">账号：</label>
+                    <input type="text" name="use_num" id="use_num" value="" placeholder="请输入你的账号"><br>
+                    <label for="psw" class="ui-hidden-accessible">账号：</label>
+                    <input type="password" name="psw" id="psw" value="" placeholder="请输入你的密码">
+                    <a style="font-size: small"><p align="center">忘记密码?</p></a>
                 <div class="ui-grid-a" align="center">
-                    <div class="ui-block-a"><input type="submit" value="提交"></div>
-                    <div class="ui-block-b"><a data-role="button" href="#">注册</a></div>
+                    <div class="ui-block-a"><input type="submit" id="submit" value="提交"></div>
+                    <div class="ui-block-b"><a data-role="button" href="./zhuce.html">注册</a></div>
                 </div>
             </form>
         </div>
     </div>
 </body>
+<script>
+    $("#submit").click(function(){
+        if($("#use_num").val() == ""){
+            alert("请输入账号！");
+            return;
+        }else if($("#psw").val() == ""){
+            alert("请输入密码");
+        }
+    });
+</script>
 </html>
