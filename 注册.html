@@ -12,8 +12,8 @@
             font-family: 'Oleo Script', cursive;
         }
         .lg-container{
-            width:250px;
-            margin:100px auto;
+            width:70%;
+            margin:auto auto;
             padding:20px 40px;
             border:1px solid #f4f4f4;
             background:rgba(255,255,255,.5);
@@ -123,51 +123,54 @@
     })
 </script>
 <body>
-<div data-role="page" style="background-image: url(images/2.png);background-repeat: no-repeat">
+<div data-role="page" style="background-image: url(images/2.png);background-repeat: no-repeat;background-size:100% 100%">
     <a  rel="external" href="杨豪辉.html" class="ui-btn ui-icon-carat-l ui-btn-icon-left ui-nodisc-icon ui-btn-icon-notext" style="background-image: url(images/2.png);border:0px">白色</a>
-    <div class="lg-container">
+    <div data-role="content" style="text-align: center;">
+        <div class="lg-container">
 
-        <h1>奇葩</h1>
-        <form id="lg-form" name="lg-form" method="post">
+            <h1>奇葩</h1>
+            <form id="lg-form" name="lg-form" method="post">
 
-            <div>
-                <label for="username">用户名:</label>
-                <input type="text" name="username" id="username" placeholder="用户名"/>
-                <div id="div1" style="display:none;">
-                    <span>请输入用户名</span>
+                <div>
+                    <label for="username">用户名:</label>
+                    <input type="text" name="username" id="username" placeholder="用户名"/>
+                    <div id="div1" style="display:none;">
+                        <span>请输入用户名</span>
+                    </div>
+
                 </div>
 
-            </div>
-
-            <div>
-                <label for="password">密码:</label>
-                <input type="password" name="password" id="password" placeholder="密码" />
-                <div id="div2" style="display:none;">
-                    <span  >请输入正确的密码</span>
+                <div>
+                    <label for="password">密码:</label>
+                    <input type="password" name="password" id="password" placeholder="密码" />
+                    <div id="div2" style="display:none;">
+                        <span  >请输入正确的密码</span>
+                    </div>
                 </div>
-            </div>
 
-            <div>
-                <input type="password" name="password" id="pw" placeholder="重复密码" />
-                <div id="div3" style="display:none;">
-                    <span  >两次输入密码不一致，请重新输入</span>
+                <div>
+                    <input type="password" name="password" id="pw" placeholder="重复密码" />
+                    <div id="div3" style="display:none;">
+                        <span  >两次输入密码不一致，请重新输入</span>
+                    </div>
                 </div>
-            </div>
 
-            <div>
-                <input type="text" name="email" id="email" placeholder="邮箱" />
-                <div id="div4" style="display:none;">
-                    <span  >邮箱格式不正确请重新输入</span>
+                <div>
+                    <input type="text" name="email" id="email" placeholder="邮箱" />
+                    <div id="div4" style="display:none;">
+                        <span  >邮箱格式不正确请重新输入</span>
+                    </div>
                 </div>
-            </div>
 
-            <div data-role="controlgroup" data-type="horizontal" style="text-align: center">
-                <input id="sub" type="submit" value="注册">
-                <a href="登录.html" data-role="button">返回</a>
-            </div>
+                <div data-role="controlgroup" data-type="horizontal" style="text-align: center">
+                    <input id="sub" type="submit" value="注册">
+                    <a href="登录.html" data-role="button">返回</a>
+                </div>
 
-        </form>
+            </form>
+        </div>
     </div>
+
 </div>
 
 </body>
