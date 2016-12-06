@@ -5,15 +5,15 @@
     <title>登录</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script src="jQuery.js"></script>
+    <script src="jquery-2.2.3.min.js"></script>
     <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <style>
         body{
             font-family: 'Oleo Script', cursive;
         }
         .lg-container{
-            width:70%;
-            margin:auto auto;
+            width:250px;
+            margin:100px auto;
             padding:20px 40px;
             border:1px solid #f4f4f4;
             background:rgba(255,255,255,.5);
@@ -123,54 +123,51 @@
     })
 </script>
 <body>
-<div data-role="page" style="background-image: url(images/2.png);background-repeat: no-repeat;background-size:100% 100%">
+<div data-role="page" style="background-image: url(images/2.png);background-repeat: no-repeat">
     <a  rel="external" href="杨豪辉.html" class="ui-btn ui-icon-carat-l ui-btn-icon-left ui-nodisc-icon ui-btn-icon-notext" style="background-image: url(images/2.png);border:0px">白色</a>
-    <div data-role="content" style="text-align: center;">
-        <div class="lg-container">
+    <div class="lg-container">
 
-            <h1>奇葩</h1>
-            <form id="lg-form" name="lg-form" method="post">
+        <h1>奇葩</h1>
+        <form id="lg-form" name="lg-form" method="post">
 
-                <div>
-                    <label for="username">用户名:</label>
-                    <input type="text" name="username" id="username" placeholder="用户名"/>
-                    <div id="div1" style="display:none;">
-                        <span>请输入用户名</span>
-                    </div>
-
+            <div>
+                <label for="username">用户名:</label>
+                <input type="text" name="username" id="username" placeholder="用户名"/>
+                <div id="div1" style="display:none;">
+                    <span>请输入用户名</span>
                 </div>
 
-                <div>
-                    <label for="password">密码:</label>
-                    <input type="password" name="password" id="password" placeholder="密码" />
-                    <div id="div2" style="display:none;">
-                        <span  >请输入正确的密码</span>
-                    </div>
-                </div>
+            </div>
 
-                <div>
-                    <input type="password" name="password" id="pw" placeholder="重复密码" />
-                    <div id="div3" style="display:none;">
-                        <span  >两次输入密码不一致，请重新输入</span>
-                    </div>
+            <div>
+                <label for="password">密码:</label>
+                <input type="password" name="password" id="password" placeholder="密码" />
+                <div id="div2" style="display:none;">
+                    <span  >请输入正确的密码</span>
                 </div>
+            </div>
 
-                <div>
-                    <input type="text" name="email" id="email" placeholder="邮箱" />
-                    <div id="div4" style="display:none;">
-                        <span  >邮箱格式不正确请重新输入</span>
-                    </div>
+            <div>
+                <input type="password" name="password" id="pw" placeholder="重复密码" />
+                <div id="div3" style="display:none;">
+                    <span  >两次输入密码不一致，请重新输入</span>
                 </div>
+            </div>
 
-                <div data-role="controlgroup" data-type="horizontal" style="text-align: center">
-                    <input id="sub" type="submit" value="注册">
-                    <a href="登录.html" data-role="button">返回</a>
+            <div>
+                <input type="text" name="email" id="email" placeholder="邮箱" />
+                <div id="div4" style="display:none;">
+                    <span  >邮箱格式不正确请重新输入</span>
                 </div>
+            </div>
 
-            </form>
-        </div>
+            <div data-role="controlgroup" data-type="horizontal" style="text-align: center">
+                <input id="sub" type="submit" value="注册">
+                <a href="登录.html" data-role="button">返回</a>
+            </div>
+
+        </form>
     </div>
-
 </div>
 
 </body>
