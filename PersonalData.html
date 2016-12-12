@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>奇葩狗</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header">
+        <a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a>
+        <h1>个人资料</h1>
+    </div>
+    <div data-role="content" style="text-align: center">
+        <div>
+            <img src="images/2.png" style="height: 80px;width: 80px;margin-bottom: 40px;">
+        </div>
+        <form method="post" action="#">
+            <div data-role="fieldcontain">
+                <div>
+                    <label for="Name">昵称:</label>
+                    <input name="Name" type="text" placeholder="我有络腮胡">
+                </div>
+                <div>
+                </div>
+                <div>
+                    <label for="addinfo">签名</label>
+                    <textarea name="addinfo" id="info" placeholder="生活是一种态度"></textarea>
+                </div>
+                <div>
+                    <label for="email">邮箱</label>
+                    <input name="email" type="text">
+                </div>
+                <div>
+                <label for="tel">手机号</label>
+                <input name="tel" type="text">
+                </div>
+            </div>
+            <input type="submit" value="保存" data-inline="true">
+        </form>
+    </div>
+</div>
+</body>
+</html>
