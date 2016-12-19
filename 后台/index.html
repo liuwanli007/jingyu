@@ -39,8 +39,11 @@
   </ul>   
   <h2><span class="icon-pencil-square-o"></span>栏目管理</h2>
   <ul>
-    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>内容管理</a></li>
-    <li><a href="pinglun.html" target="right"><span class="icon-caret-right"></span>评论管理</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>推荐展示</a></li>
+    <li><a href="tupian.html" target="right"><span class="icon-caret-right"></span>图片展示</a></li>
+    <li><a href="duanzi.html" target="right"><span class="icon-caret-right"></span>段子展示</a></li>
+    <li><a href="shipin.html" target="right"><span class="icon-caret-right"></span>视频展示</a></li>
+        <li><a href="pinglun.html" target="right"><span class="icon-caret-right"></span>评论管理</a></li>
     <li><a href="add.html" target="right"><span class="icon-caret-right"></span>添加内容</a></li>
     <li><a href="cate.html" target="right"><span class="icon-caret-right"></span>分类管理</a></li>        
   </ul>  
@@ -51,6 +54,8 @@ $(function(){
 	  $(this).next().slideToggle(200);	
 	  $(this).toggleClass("on"); 
   })
+   
+  
   $(".leftnav ul li a").click(function(){
 	    $("#a_leader_txt").text($(this).text());
   		$(".leftnav ul li a").removeClass("on");
