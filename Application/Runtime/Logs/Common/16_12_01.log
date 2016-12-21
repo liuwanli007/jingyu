@@ -1,0 +1,18 @@
+[ 2016-12-01T16:36:35+08:00 ] 127.0.0.1 /shixun/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-01T16:36:36+08:00 ] 127.0.0.1 /shixun/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-01T16:36:37+08:00 ] 127.0.0.1 /shixun/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载模块:Index
+

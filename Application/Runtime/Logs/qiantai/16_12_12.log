@@ -1,0 +1,2980 @@
+[ 2016-12-12T14:07:55+08:00 ] 127.0.0.1 /shixun/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-12-12T14:08:47+08:00 ] 127.0.0.1 /shixun/index.php/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\HTML5\Apache\htdocs\shixun\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\HTML5\Apache\htdocs\shixun\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `username`,`password`,`email`,`nickname` FROM `user` WHERE `username` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2016-12-12T14:08:50+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-12-12T14:09:02+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2016-12-12T14:09:05+08:00 ] 127.0.0.1 /shixun/index.php/dz/index3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002089s ]
+
+[ 2016-12-12T14:09:08+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0179s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2016-12-12T14:09:30+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-12-12T14:12:32+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-12-12T14:23:34+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-12-12T14:24:15+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'this.username' in 'where clause'
+
+[ 2016-12-12T14:24:17+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'this.username' in 'where clause'
+
+[ 2016-12-12T14:24:19+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0618s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0849s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'this.username' in 'where clause'
+
+[ 2016-12-12T14:24:35+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `user` WHERE ( user.username = 123 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2016-12-12T14:25:14+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( user.username = 123 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-12-12T14:25:19+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `user` WHERE ( user.username = 123 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2016-12-12T14:27:25+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `user` WHERE ( user.username = 123 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-12-12T14:28:10+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( user.username = 123 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2016-12-12T14:28:12+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `user` WHERE ( user.username = 123 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-12-12T14:28:32+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-12-12T14:29:02+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-12-12T14:29:20+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000561s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2016-12-12T14:29:47+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-12-12T14:36:17+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2016-12-12T14:37:20+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0953s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0454s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-12-12T14:37:23+08:00 ] 127.0.0.1 /shixun/index.php/dz/index3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-12-12T14:37:25+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-12-12T14:44:51+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-12-12T14:44:54+08:00 ] 127.0.0.1 /shixun/index.php/dz/index3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2016-12-12T14:44:55+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-12-12T14:44:59+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0513s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-12-12T14:45:01+08:00 ] 127.0.0.1 /shixun/index.php/dz/index3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2016-12-12T14:45:03+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-12-12T15:34:40+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000646s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-12-12T15:34:41+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2016-12-12T15:34:45+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2016-12-12T15:34:55+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-12-12T15:35:05+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-12-12T15:35:23+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-12-12T15:35:38+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid    [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000723s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000921s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-12-12T15:40:15+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 12 行.
+SQL: SELECT * FROM `user` WHERE `username` = 'nickname'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-12-12T15:40:36+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user` WHERE ( username = 123 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-12-12T15:40:47+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( username = 123 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined index: nickname D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-12-12T15:41:04+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE ( username = 123 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000497s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Undefined index: username D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-12-12T15:41:35+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE ( username = 123 )  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2016-12-12T15:47:12+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Undefined variable: data D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-12-12T15:48:33+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2016-12-12T15:51:31+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: nickname D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-12-12T15:52:08+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-12-12T15:52:28+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'nickname'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2016-12-12T15:52:41+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'nickname'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-12-12T15:59:08+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'nickname'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-12-12T15:59:25+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-12-12T15:59:35+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2016-12-12T16:00:27+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Trying to get property of non-object D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-12-12T16:00:32+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Trying to get property of non-object D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-12-12T16:00:33+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Trying to get property of non-object D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-12-12T16:00:34+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Trying to get property of non-object D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-12-12T16:00:44+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: username D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-12-12T16:01:15+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined index: nickname D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-12-12T16:01:56+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-12-12T16:05:05+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000490s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2016-12-12T16:05:50+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-12-12T16:07:52+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2016-12-12T16:09:17+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000481s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-12-12T16:09:37+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index: nickname D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-12-12T16:10:49+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: ['nickname'] D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-12-12T16:11:07+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: ['nickname'] D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-12-12T16:11:16+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-12-12T16:11:17+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-12-12T16:11:23+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: ['nickname'] D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-12-12T16:12:51+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: ['nickname'] D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2016-12-12T16:13:55+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( state= 5 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: ['nickname'] D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-12-12T16:14:06+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state= 5 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-12-12T16:14:16+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-12-12T16:16:56+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-12-12T16:18:47+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-12-12T16:19:42+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2016-12-12T16:19:45+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2016-12-12T16:21:19+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2016-12-12T16:21:50+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-12-12T16:23:27+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-12-12T16:24:30+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-12-12T16:26:13+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000972s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001210s ]
+NOTIC: [8] Undefined variable: works1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-12-12T16:27:45+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined variable: works1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-12-12T16:27:51+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined variable: works1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-12-12T16:27:52+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined variable: works1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-12-12T16:27:53+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0116s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001726s ]
+NOTIC: [8] Undefined variable: works1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-12-12T16:27:54+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: works1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-12-12T16:29:14+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: data1 D:\HTML5\Apache\htdocs\shixun\Application\qiantai\Controller\DzController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000858s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] Undefined variable: works1 D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2016-12-12T16:30:22+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined variable: video D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2016-12-12T16:30:44+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: video D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2016-12-12T16:31:04+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined variable: video D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-12-12T16:31:49+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-12-12T16:31:55+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: works D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-12-12T16:32:06+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-12-12T16:32:42+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2016-12-12T16:33:57+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0159s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-12-12T16:33:59+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2016-12-12T16:34:25+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000492s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: works D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-12-12T16:34:57+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2016-12-12T16:35:55+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2016-12-12T16:36:25+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-12-12T16:37:12+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-12-12T16:38:51+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-12-12T16:38:55+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2016-12-12T16:39:50+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-12-12T16:39:53+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2016-12-12T16:40:19+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-12-12T16:40:44+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2016-12-12T16:40:47+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-12-12T16:40:51+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-12-12T16:42:25+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-12-12T16:42:36+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined variable: aa D:\HTML5\Apache\htdocs\shixun\Application\Runtime\Cache\qiantai\a4452ec7c56a2b82030b4e8aca554dcb.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-12-12T16:43:10+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002998s ]
+
+[ 2016-12-12T16:44:41+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-12-12T16:44:47+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-12-12T16:45:01+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-12-12T16:45:14+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-12-12T16:45:38+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2016-12-12T16:45:45+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-12-12T16:45:51+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-12-12T16:45:53+08:00 ] 127.0.0.1 /shixun/index.php/dz/index3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-12-12T16:45:55+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0112s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-12-12T16:45:59+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `user` WHERE ( state=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-12-12T16:46:20+08:00 ] 127.0.0.1 /shixun/index.php/dz/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-12-12T16:46:21+08:00 ] 127.0.0.1 /shixun/index.php/dz/index3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-12-12T16:46:23+08:00 ] 127.0.0.1 /shixun/index.php/dz/index4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM user  as  a INNER JOIN works  as  b  on b.userid = a.userid and type=2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2016-12-12T16:46:25+08:00 ] 127.0.0.1 /shixun/index.php/dz/set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+

@@ -1,0 +1,89 @@
+[ 2016-12-05T16:14:13+08:00 ] 127.0.0.1 /shixun/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000550s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030179s ]
+
+[ 2016-12-05T16:14:21+08:00 ] 127.0.0.1 /shixun/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000789s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000908s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003618s ]
+
+[ 2016-12-05T16:17:36+08:00 ] 127.0.0.1 /shixun/index.php/dz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-12-05T16:17:37+08:00 ] 127.0.0.1 /shixun/index.php/dz/%E6%9D%A8%E8%B1%AA%E8%BE%89.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+ERR: 非法操作:杨豪辉
+
+[ 2016-12-05T16:17:52+08:00 ] 127.0.0.1 /shixun/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002590s ]
+
